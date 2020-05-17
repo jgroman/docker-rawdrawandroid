@@ -4,7 +4,7 @@ Docker image for building [rawdrawandroid framework](https://github.com/cnlohr/r
 
 ## Usage in Windows
 
-* You need to have `adb` installed on your host Windows. `adb` **versions on host system and inside Docker container MUST the same**. Usually rebuilding Docker image and updating platform-tools on host system will ensure equal `adb` versions.
+* You need to have `adb` installed on your host Windows. `adb` **versions on host system and inside Docker container MUST be the same**. Usually rebuilding Docker image and updating platform-tools on host system will ensure equal `adb` versions.
 * Edit `rda.ps1` helper script and update `$CmdAdb` so that it points to `adb` executable on your system.
 * Connect Android device to host system and check that host `adb` can detect it:
 
